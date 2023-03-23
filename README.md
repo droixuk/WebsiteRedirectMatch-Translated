@@ -1,4 +1,4 @@
-WebsiteLinkTranslator is a Python script that translates website links from one language to another and finds the best match for the translated link among a list of target links. This script was created with the inspiration and help of ChatGPT 4.
+WebsiteRedirectMatch-Translated is a Python script that translates website links from one language to another and finds the best match for the translated link among a list of target links. This script was created with the inspiration and help of ChatGPT 4.
 
 Requirements
 Python 3.6 or later
@@ -18,12 +18,12 @@ Copy code
 link,language_code
 target_links.csv: Contains the target links to compare the translated links to. Each line should have the following format:
 csv
-Copy code
+
 link,language_code
 Run the script:
 bash
-Copy code
-python WebsiteLinkTranslator.py
+
+python WebsiteRedirectMatch-Translated.py
 The script will output a CSV file named output.csv with the following format:
 csv
 Copy code
